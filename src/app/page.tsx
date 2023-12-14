@@ -16,11 +16,11 @@ export default function Home() {
           đẹp, uy tín và giá rẻ"`}
         </span>
       </div>
-      <div className="flex flex-row justify-between items-center px-20">
-        <article
-          className="flex flex-col justify-between items-start space-y-5"
-          data-aos="fade-right"
-        >
+      <div
+        className="flex flex-row justify-between items-center px-20"
+        data-aos="fade-right"
+      >
+        <div className="flex flex-col justify-between items-start space-y-5">
           <span className="text-[#777777] text-sm font-bold">
             THE ULTIMATE LUXURY EXPERIENCE
           </span>
@@ -33,27 +33,30 @@ export default function Home() {
           >
             Contact us now
           </a>
-        </article>
-        <Image
-          src="/images/image1.jpg"
-          alt="Image"
-          width={750}
-          height={960}
-          data-aos="fade-left"
-        />
+        </div>
+        <div className="zoom-container">
+          <Image
+            src="/images/image1.jpg"
+            alt="Image"
+            width={750}
+            height={960}
+            className="zoom-animation"
+          />
+        </div>
       </div>
-      <div className="flex flex-row justify-between items-center px-20">
-        <Image
-          src="/images/image2.jpg"
-          alt="Image"
-          width={550}
-          height={560}
-          data-aos="fade-right"
-        />
-        <article
-          className="flex flex-col justify-between items-end space-y-5"
-          data-aos="fade-left"
-        >
+      <div
+        className="flex flex-row justify-between items-center px-20"
+        data-aos="fade-left"
+      >
+        <div className="zoom-container">
+          <Image
+            src="/images/image2.jpg"
+            alt="Image"
+            width={550}
+            height={560}
+          />
+        </div>
+        <div className="flex flex-col justify-between items-end space-y-5">
           <span className="text-[#777777] text-sm font-bold">
             THE ULTIMATE LUXURY EXPERIENCE
           </span>
@@ -66,13 +69,13 @@ export default function Home() {
           >
             Contact us now
           </a>
-        </article>
+        </div>
       </div>
-      <div className="flex flex-row justify-between items-center px-20">
-        <article
-          className="flex flex-col justify-between items-start space-y-5"
-          data-aos="fade-left"
-        >
+      <div
+        className="flex flex-row justify-between items-center px-20"
+        data-aos="fade-right"
+      >
+        <div className="flex flex-col justify-between items-start space-y-5">
           <span className="text-[#777777] text-sm font-bold">
             THE ULTIMATE LUXURY EXPERIENCE
           </span>
@@ -85,27 +88,29 @@ export default function Home() {
           >
             Contact us now
           </a>
-        </article>
-        <Image
-          src="/images/image3.jpg"
-          alt="Image"
-          width={750}
-          height={960}
-          data-aos="fade-right"
-        />
+        </div>
+        <div className="zoom-container">
+          <Image
+            src="/images/image3.jpg"
+            alt="Image"
+            width={750}
+            height={960}
+          />
+        </div>
       </div>
-      <div className="flex flex-row justify-between items-center px-20">
-        <Image
-          src="/images/image4.jpg"
-          alt="Image"
-          width={550}
-          height={560}
-          data-aos="fade-right"
-        />
-        <article
-          className="flex flex-col justify-between items-end space-y-5"
-          data-aos="fade-left"
-        >
+      <div
+        className="flex flex-row justify-between items-center px-20"
+        data-aos="fade-left"
+      >
+        <div className="zoom-container">
+          <Image
+            src="/images/image4.jpg"
+            alt="Image"
+            width={550}
+            height={560}
+          />
+        </div>
+        <div className="flex flex-col justify-between items-end space-y-5">
           <span className="text-[#777777] text-sm font-bold">
             THE ULTIMATE LUXURY EXPERIENCE
           </span>
@@ -118,13 +123,13 @@ export default function Home() {
           >
             Contact us now
           </a>
-        </article>
+        </div>
       </div>
-      <div className="flex flex-row justify-between items-center px-20">
-        <article
-          className="flex flex-col justify-between items-start space-y-5"
-          data-aos="fade-left"
-        >
+      <div
+        className="flex flex-row justify-between items-center px-20"
+        data-aos="fade-right"
+      >
+        <div className="flex flex-col justify-between items-start space-y-5">
           <span className="text-[#777777] text-sm font-bold">
             THE ULTIMATE LUXURY EXPERIENCE
           </span>
@@ -137,14 +142,15 @@ export default function Home() {
           >
             Contact us now
           </a>
-        </article>
-        <Image
-          src="/images/image5.jpg"
-          alt="Image"
-          width={750}
-          height={960}
-          data-aos="fade-right"
-        />
+        </div>
+        <div className="zoom-container">
+          <Image
+            src="/images/image5.jpg"
+            alt="Image"
+            width={550}
+            height={560}
+          />
+        </div>
       </div>
     </div>
   );
