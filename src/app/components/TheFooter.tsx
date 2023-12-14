@@ -20,12 +20,11 @@ const TheFooter = (props: Props) => {
             "`}
         </span>
       </div>
-      <div className="flex flex-col justify-between items-start ms-20 h-full space-y-10">
-        <h1 className="font-bold mt-5 text-5xl text-white">Contact Us</h1>
-        <a
-          className="flex flex-row justify-between items-start"
-          href="tel:0383.291.623"
-        >
+      <div className="flex flex-col justify-between items-start ms-20 h-full space-y-5">
+        <h1 className="font-bold mt-5 text-xl text-white">
+          Để tham gia vào đội ngũ của chúng tôi
+        </h1>
+        <div className="flex flex-row justify-between items-start">
           <span className="text-lg text-white font-bold me-3">+</span>
           <LocalPhoneIcon
             color="primary"
@@ -35,11 +34,21 @@ const TheFooter = (props: Props) => {
             <span className="ms-2 text-base font-semibold text-white">
               Phone number
             </span>
-            <span className="ms-2 mt-1 text-xl font-semibold text-white">
-              +84 383.291.623
-            </span>
+            <a
+              className="ms-2 mt-1 text-base font-semibold text-white underline"
+              href="tel:0979745051"
+            >
+              0979745051
+            </a>
+            <a
+              className="ms-2 mt-1 text-base font-semibold text-white underline"
+              href="tel:0961739713"
+            >
+              0961739713
+            </a>
           </div>
-        </a>
+        </div>
+
         <div className="flex flex-row justify-between items-start">
           <span className="text-lg text-white font-bold me-3">+</span>
           <LocalPhoneIcon
